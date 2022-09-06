@@ -69,3 +69,8 @@ void print(const LinkedList *lista)
     }
     printf("NULL\n");
 }
+
+if(*lista == NULL ){
+    novo->proximo = NULL;
+    *lista = novo;
+}
